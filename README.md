@@ -36,10 +36,10 @@ module "aws_resource_tags" {
 <!-- BEGIN_TF_DOCS -->
 ## Requirements
 
-| Name | Version |
-|------|---------|
-| `terraform` | `~> 1.6` |
-| `aws` | `~> 5.0` |
+| Name | Provider | Version |
+|------|----------|---------|
+| `terraform` | | `~> 1.6` |
+| `aws` | [hashicorp/aws](https://registry.terraform.io/providers/hashicorp/aws/latest/docs) | `~> 5.0` |
 
 ## Inputs
 

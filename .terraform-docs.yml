@@ -3,15 +3,31 @@ formatter: "markdown table" # this is required
 sections:
   hide: []
   show:
-    - all
+    - inputs
+    - modules
+    - outputs
+    - requirements
+    - resources
 
 content: |-
   ## Requirements
 
-  | Name | Version |
-  |------|---------|
-  {{- range .Module.Requirements }}
-  | `{{ .Name }}` | `{{ .Version }}` |
+  | Name | Provider | Version |
+  |------|----------|---------|
+  {{- $reqs := .Module.Requirements -}}
+  {{- $ress := .Module.Resources -}}
+  {{- range $reqs -}}
+  {{- $req := . -}}
+  {{- range $ress -}}
+  {{- $res := . -}}
+  {{- if eq $req.Name $res.ProviderName }}
+  | `{{ $req.Name }}` | [{{ $res.ProviderSource }}](https://registry.terraform.io/providers/{{ $res.ProviderSource }}/latest/docs) | `{{ $req.Version }}` |
+  {{- break -}}
+  {{- else }}
+  | `{{ $req.Name }}` | | `{{ $req.Version }}` |
+  {{- break -}}
+  {{- end }}
+  {{- end -}}
   {{- end }}
 
   ## Inputs

@@ -6,7 +6,11 @@
 
 # AWS Resource Tags Module
 
-[![Terraform](https://img.shields.io/badge/Terraform-623ce4.svg?labelColor=171e21&style=for-the-badge&logo=terraform)][terraform] [![OpenTofu](https://img.shields.io/badge/OpenTofu-ffda18.svg?labelColor=171e21&style=for-the-badge&logo=opentofu)][opentofu] [![Golang](https://img.shields.io/badge/Go-00add8.svg?labelColor=171e21&style=for-the-badge&logo=go)][golang] [![Node.js](https://img.shields.io/badge/Node.js-339933.svg?labelColor=171e21&style=for-the-badge&logo=node.js)][node.js]
+[![AWS](https://img.shields.io/badge/AWS-232f3e.svg?logoColor=ffffff&style=for-the-badge&logo=amazonaws)][aws]
+[![Terraform](https://img.shields.io/badge/Terraform-623ce4.svg?logoColor=ffffff&style=for-the-badge&logo=terraform)][terraform]
+[![OpenTofu](https://img.shields.io/badge/OpenTofu-ffda18.svg?logoColor=171e21&style=for-the-badge&logo=opentofu)][opentofu]
+[![Golang](https://img.shields.io/badge/Go-00add8.svg?logoColor=ffffff&style=for-the-badge&logo=go)][golang]
+[![Node.js](https://img.shields.io/badge/Node.js-339933.svg?logoColor=ffffff&style=for-the-badge&logo=node.js)][node.js]
 
 Simplifies the process of applying the correct AWS tags to Northwood Labs resources.
 
@@ -36,37 +40,37 @@ module "aws_resource_tags" {
 <!-- BEGIN_TF_DOCS -->
 ## Requirements
 
-| Name | Provider | Version |
-|------|----------|---------|
-| `terraform` | | `~> 1.6` |
-| `aws` | [hashicorp/aws](https://registry.terraform.io/providers/hashicorp/aws/latest/docs) | `~> 5.0` |
+| Name        | Provider                                                                           | Version  |
+|-------------|------------------------------------------------------------------------------------|----------|
+| `terraform` |                                                                                    | `~> 1.6` |
+| `aws`       | [hashicorp/aws](https://registry.terraform.io/providers/hashicorp/aws/latest/docs) | `~> 5.0` |
 
 ## Inputs
 
-| Req | Variable | Type | Description | Default |
-|:---:|----------|------|-------------|---------|
-| :white_check_mark: | `app` | [`string`](https://opentofu.org/docs/language/expressions/types/) | The `app` tag. Lowercase and hyphenated. |  |
-| :white_check_mark: | `env` | [`string`](https://opentofu.org/docs/language/expressions/types/) | The `env` tag. Lowercase. |  |
-|  | `extra` | [`map`](https://opentofu.org/docs/language/expressions/types/) | Additional (ad hoc) tags to apply. | `{}` |
+|        Req         | Variable | Type                                                              | Description                              | Default |
+|:------------------:|----------|-------------------------------------------------------------------|------------------------------------------|---------|
+| :white_check_mark: | `app`    | [`string`](https://opentofu.org/docs/language/expressions/types/) | The `app` tag. Lowercase and hyphenated. |         |
+| :white_check_mark: | `env`    | [`string`](https://opentofu.org/docs/language/expressions/types/) | The `env` tag. Lowercase.                |         |
+|                    | `extra`  | [`map`](https://opentofu.org/docs/language/expressions/types/)    | Additional (ad hoc) tags to apply.       | `{}`    |
 
 ## Outputs
 
-| Name | Description |
-|------|-------------|
-| `app` | The value of the `app` input variable. |
-| `common_tags` | Most services support simple `key = value` pairs. |
-| `deployed_at` | The [RFC 3339](https://datatracker.ietf.org/doc/html/rfc3339) at which the resources were deployed. |
-| `deployed_by` | The ARN of the assumed role which performed the deployment. |
-| `env` | The value of the `env` input variable. |
-| `launch_template_resource_tags` | Tags formatted for use with _Launch Templates_. |
-| `region` | The AWS region in which the resources are being created. |
+| Name                            | Description                                                                                         |
+|---------------------------------|-----------------------------------------------------------------------------------------------------|
+| `app`                           | The value of the `app` input variable.                                                              |
+| `common_tags`                   | Most services support simple `key = value` pairs.                                                   |
+| `deployed_at`                   | The [RFC 3339](https://datatracker.ietf.org/doc/html/rfc3339) at which the resources were deployed. |
+| `deployed_by`                   | The ARN of the assumed role which performed the deployment.                                         |
+| `env`                           | The value of the `env` input variable.                                                              |
+| `launch_template_resource_tags` | Tags formatted for use with _Launch Templates_.                                                     |
+| `region`                        | The AWS region in which the resources are being created.                                            |
 
 ## Resources
 
-| Kind | Source | Name | Provider |
-|------|--------|------|----------|
+| Kind        | Source                                                                                                                       | Name      | Provider                                                                           |
+|-------------|------------------------------------------------------------------------------------------------------------------------------|-----------|------------------------------------------------------------------------------------|
 | data source | [`data.aws_caller_identity`](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/data-sources/caller_identity) | `current` | [hashicorp/aws](https://registry.terraform.io/providers/hashicorp/aws/latest/docs) |
-| data source | [`data.aws_region`](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/data-sources/region) | `current` | [hashicorp/aws](https://registry.terraform.io/providers/hashicorp/aws/latest/docs) |
+| data source | [`data.aws_region`](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/data-sources/region)                   | `current` | [hashicorp/aws](https://registry.terraform.io/providers/hashicorp/aws/latest/docs) |
 <!-- END_TF_DOCS -->
 
 ## Testing
@@ -79,7 +83,8 @@ These tests create _real resources_, which cost _real money_.
 make test
 ```
 
+[aws]: https://aws.amazon.com
 [golang]: https://go.dev
 [node.js]: https://nodejs.org
 [opentofu]: https://opentofu.org
-[terraform]: https://terraform.io
+[terraform]: https://developer.hashicorp.com/terraform

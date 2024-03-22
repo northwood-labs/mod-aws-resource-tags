@@ -10,7 +10,7 @@ locals {
     deployed_by = data.aws_caller_identity.current.arn
   }
 
-  common_tags   = merge(local.std_tags, var.additional_tags)
+  common_tags   = merge(local.std_tags, var.extra)
   resource_name = "${local.tag_app}-${local.tag_env}"
 
   launch_template_resource_tags = merge(local.common_tags, {

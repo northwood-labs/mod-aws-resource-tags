@@ -28,7 +28,7 @@ module "aws_resource_tags" {
   app = "sample-app-${random_id.timestamp.hex}"
   env = "sandbox"
 
-  additional_tags = {
+  extra = {
     managed_by = "opentofu"
   }
 }

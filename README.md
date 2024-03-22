@@ -47,7 +47,7 @@ module "aws_resource_tags" {
 |:---:|----------|------|-------------|---------|
 | :white_check_mark: | `app` | [`string`](https://opentofu.org/docs/language/expressions/types/) | The `app` tag. Lowercase and hyphenated. |  |
 | :white_check_mark: | `env` | [`string`](https://opentofu.org/docs/language/expressions/types/) | The `env` tag. Lowercase. |  |
-|  | `additional_tags` | [`map`](https://opentofu.org/docs/language/expressions/types/) | Additional (ad hoc) tags to apply. | `{}` |
+|  | `extra` | [`map`](https://opentofu.org/docs/language/expressions/types/) | Additional (ad hoc) tags to apply. | `{}` |
 
 ## Outputs
 

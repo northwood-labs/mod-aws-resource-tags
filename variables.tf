@@ -18,7 +18,7 @@ variable "env" {
   }
 }
 
-variable "additional_tags" {
+variable "extra" {
   description = "Additional (ad hoc) tags to apply."
   default     = {}
 }

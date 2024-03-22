@@ -14,14 +14,6 @@ content: |-
   | `{{ .Name }}` | `{{ .Version }}` |
   {{- end }}
 
-  ## Providers
-
-  | Name | Version |
-  |------|---------|
-  {{- range .Module.Providers }}
-  | `{{ .Name }}` | `{{ .Version }}` |
-  {{- end }}
-
   ## Inputs
 
   | Req | Variable | Type | Description | Default |

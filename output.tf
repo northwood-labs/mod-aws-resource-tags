@@ -24,7 +24,7 @@ output "region" {
 }
 
 output "deployed_at" {
-  description = "The RFC 3339 at which the resources were deployed."
+  description = "The [RFC 3339](https://datatracker.ietf.org/doc/html/rfc3339) at which the resources were deployed."
   value       = local.std_tags["deployed_at"]
 }
 

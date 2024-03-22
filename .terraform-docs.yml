@@ -3,11 +3,7 @@ formatter: "markdown table" # this is required
 sections:
   hide: []
   show:
-    - requirements
-    - providers
-    - inputs
-    - outputs
-    - resources
+    - all
 
 content: |-
   ## Requirements
@@ -15,24 +11,39 @@ content: |-
   | Name | Version |
   |------|---------|
   {{- range .Module.Requirements }}
-  | `{{ .Name }}` | {{ .Version }} |
+  | `{{ .Name }}` | `{{ .Version }}` |
   {{- end }}
 
   ## Providers
 
-  | Name | Version | Reference |
-  |------|---------|-----------|
+  | Name | Version |
+  |------|---------|
   {{- range .Module.Providers }}
-  | `{{ .Name }}` | {{ .Version }} | [{{ .Position.Filename }}]() |
+  | `{{ .Name }}` | `{{ .Version }}` |
   {{- end }}
 
-  {{ .Inputs }}
+  ## Inputs
 
-  {{ .Outputs }}
+  | Req | Variable | Type | Description | Default |
+  |:---:|----------|------|-------------|---------|
+  {{- range .Module.Inputs }}
+  | {{ if eq .Required true }}:white_check_mark:{{ else }}{{ end }} | `{{ .Name }}` | [`{{ .Type }}`](https://opentofu.org/docs/language/expressions/types/) | {{ .Description }} | {{ if .HasDefault }}`{{ .GetValue }}`{{ end }} |
+  {{- end }}
+
+  ## Outputs
+
+  | Name | Description |
+  |------|-------------|
+  {{- range .Module.Outputs }}
+  | `{{ .Name }}` | {{ if eq .Sensitive true }}<span title="This is a sensitive value.">:eye_speech_bubble:</span> {{ end }}{{ .Description }} |
+  {{- end }}
 
   ## Resources
-  {{ range .Module.Resources }}
-  * [`{{ .Mode }}.{{ .ProviderName }}_{{ .Type }}`](https://registry.terraform.io/providers/{{ .ProviderSource }}/latest/docs/{{ if eq .Mode "data" }}data-sources{{ end }}/{{ .Type }})
+
+  | Kind | Source | Name | Provider |
+  |------|--------|------|----------|
+  {{- range .Module.Resources }}
+  | {{ .GetMode }} | [`{{ if eq .Mode "data" }}{{ .Mode }}.{{ end }}{{ .ProviderName }}_{{ .Type }}`]({{ .URL }}) | `{{ .Name }}` | [{{ .ProviderSource }}](https://registry.terraform.io/providers/{{ .ProviderSource }}/latest/docs) |
   {{- end }}
 
 output:

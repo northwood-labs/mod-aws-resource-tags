@@ -19,6 +19,6 @@ variable "env" {
 }
 
 variable "additional_tags" {
-  description = "Additional tags in the map format: `{key = value}`."
+  description = "Additional (ad hoc) tags to apply."
   default     = {}
 }

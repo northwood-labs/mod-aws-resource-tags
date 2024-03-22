@@ -23,7 +23,7 @@ resource "random_id" "timestamp" {
 }
 
 module "aws_resource_tags" {
-  source = "../../" # https://github.com/northwood-labs/aws-resource-tags.git?ref={tag}
+  source = "../../" # https://github.com/northwood-labs/mod-aws-resource-tags.git?ref={tag}
 
   app = "sample-app-${random_id.timestamp.hex}"
   env = "sandbox"

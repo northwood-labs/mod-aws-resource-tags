@@ -26,7 +26,7 @@ More examples can be found in the `./examples` directory.
 ```hcl
 # Load the module
 module "aws_resource_tags" {
-  source = "https://github.com/northwood-labs/aws-resource-tags.git?ref={tag}"
+  source = "https://github.com/northwood-labs/mod-aws-resource-tags.git?ref={tag}"
 
   app = "sample-app"
   env = "sandbox"

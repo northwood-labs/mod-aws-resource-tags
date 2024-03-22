@@ -41,12 +41,6 @@ module "aws_resource_tags" {
 | `terraform` | `~> 1.6` |
 | `aws` | `~> 5.0` |
 
-## Providers
-
-| Name | Version |
-|------|---------|
-| `aws` | `~> 5.0` |
-
 ## Inputs
 
 | Req | Variable | Type | Description | Default |

@@ -160,11 +160,7 @@ linters-settings:
       - performance
       - style
 
-    disabled-tags:
-      - badRegexp
-      - badSyncOnceFunc
-      - docStub
-      - whyNoLint
+    disabled-tags: []
 
     settings:
       captLocal:

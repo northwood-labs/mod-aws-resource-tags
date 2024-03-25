@@ -6,13 +6,10 @@
 
 version: 2
 updates:
-  - package-ecosystem: gomod # See documentation for possible values
-    directory: / # Location of package manifests
-    schedule:
-      interval: daily
-
-  - package-ecosystem: terraform
-    directory: /
+  # ----------------------------------------------------------------------------
+  # goplicate-start:always
+  - package-ecosystem: docker
+    directory: /.devcontainer
     schedule:
       interval: daily
 
@@ -20,8 +17,12 @@ updates:
     directory: /
     schedule:
       interval: daily
+  # goplicate-end:always
 
-  - package-ecosystem: gomod
-    directory: /tests
+  # ----------------------------------------------------------------------------
+  # goplicate-start:go
+  - package-ecosystem: gomod # See documentation for possible values
+    directory: / # Location of package manifests
     schedule:
       interval: daily
+  # goplicate-end:go

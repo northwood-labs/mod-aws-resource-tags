@@ -31,7 +31,7 @@ for FILE in ${FILES[@]}; do
 
         # Otherwise, as long as the copied file is not the ignored file, go
         # ahead and copy it (no restricton)
-        elif [[ "${FILE}" != "${RUNNER_TEMP}/full-copy/${IGNORE}" ]]; then
+        elif [[ ${FILE} != "${RUNNER_TEMP}/full-copy/${IGNORE}" ]]; then
             cp -Rfv "${FILE}" "${PWD}"
         fi
     done
@@ -56,13 +56,13 @@ TYPES=()
 
 # Pass GO=true when calling the script.
 # shellcheck disable=2154
-if [[ "${GO}" == "true" ]]; then
+if [[ ${GO} == "true" ]]; then
     TYPES+=("go")
 fi
 
 # Pass TF=true when calling the script.
 # shellcheck disable=2154
-if [[ "${TF}" == "true" ]]; then
+if [[ ${TF} == "true" ]]; then
     TYPES+=("tf")
 fi
 
@@ -78,7 +78,7 @@ done
 goplicate run --allow-dirty --confirm --stash-changes
 
 # Generate .ecrc
-tomljson ecrc.toml >.ecrc
+tomljson ecrc.toml > .ecrc
 
 # Make shell scripts executable
 find "${PWD}" -type f -name "*.sh" -print0 |

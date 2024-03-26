@@ -37,13 +37,13 @@ TYPES=()
 
 # Pass GO=true when calling the script.
 # shellcheck disable=2154
-if [[ "${GO}" == "true" ]]; then
+if [[ ${GO} == "true" ]]; then
     TYPES+=("go")
 fi
 
 # Pass TF=true when calling the script.
 # shellcheck disable=2154
-if [[ "${TF}" == "true" ]]; then
+if [[ ${TF} == "true" ]]; then
     TYPES+=("tf")
 fi
 
@@ -78,13 +78,13 @@ TYPES=()
 
 # Pass GO=true when calling the script.
 # shellcheck disable=2154
-if [[ "${GO}" == "true" ]]; then
+if [[ ${GO} == "true" ]]; then
     TYPES+=("go")
 fi
 
 # Pass TF=true when calling the script.
 # shellcheck disable=2154
-if [[ "${TF}" == "true" ]]; then
+if [[ ${TF} == "true" ]]; then
     TYPES+=("tf")
 fi
 
@@ -106,7 +106,7 @@ cp -vf "${RUNNER_TEMP}/updates/.vscode/settings.tmpl.jsonc" "${PWD}/.vscode/sett
 goplicate run --allow-dirty --confirm --stash-changes
 
 # Generate .ecrc
-tomljson ecrc.toml >.ecrc
+tomljson ecrc.toml > .ecrc
 
 # Make shell scripts executable
 find "${PWD}" -type f -name "*.sh" -print0 |

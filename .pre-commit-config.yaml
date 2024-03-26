@@ -21,7 +21,6 @@ repos:
           - --maxkb=500
           - --enforce-all
       - id: check-case-conflict
-      - id: check-json
       - id: check-merge-conflict
       - id: check-toml
       - id: check-xml
@@ -100,45 +99,19 @@ repos:
   # goplicate-end:shell
 
   # ----------------------------------------------------------------------------
-  # goplicate-start:python
-  - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v4.5.0
-    hooks:
-      - id: fix-encoding-pragma
-        args:
-          - --remove
-      - id: requirements-txt-fixer
-
-  - repo: https://github.com/asottile/pyupgrade
-    rev: c21b4c4d153be0633357686c7697f539ac194868
-    hooks:
-      - id: pyupgrade
-        args:
-          - --py311-plus
-
-  - repo: https://github.com/asottile/reorder_python_imports
-    rev: c4fe43d9809f1507508b3aba24ad1a72b5407f58
-    hooks:
-      - id: reorder-python-imports
-        args:
-          - --py311-plus
-  # goplicate-end:python
-
-  # ----------------------------------------------------------------------------
   # goplicate-start:golang
   - repo: https://github.com/skyzyx/git-hooks
     rev: 4a2f0dc93e5c5353ed5e619599b0d15e34df88db
     hooks:
       - id: gofumpt
       - id: golangci-lint
-      - id: gomodupdate
 
   - repo: local
     hooks:
       - id: go-consistent
         name: 'Go: Consistent Patterns'
         description: Analyzes Go packages to identify unnecessary type conversions.
-        entry: bash -c 'go-consistent ./corefunc/...; go-consistent ./corefuncprovider/...'
+        entry: bash -c 'go-consistent ./...'
         language: system
         stages: [commit, push]
 

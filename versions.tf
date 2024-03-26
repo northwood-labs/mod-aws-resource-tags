@@ -1,7 +1,7 @@
 # https://opentofu.org/docs/language/settings/
 terraform {
   # goplicate-start:version
-  required_version = "~> 1.6"
+  required_version = "~> 1.0"
   # goplicate-end:version
 
   required_providers {

@@ -42,14 +42,16 @@ func TestAwsResourceTags(t *testing.T) {
 		binary = "terraform"
 	}
 
-	if _, err = os.Stat(which.Which(binary)); os.IsNotExist(err) {
-		t.Fatalf("Binary %s must be installed first", binary)
+	if os.Getenv("GITHUB_ACTIONS") != "true" {
+		if _, err = os.Stat(which.Which(binary)); os.IsNotExist(err) {
+			t.Fatalf("Binary %s must be installed first", binary)
+		}
 	}
 
 	// https://pkg.go.dev/github.com/gruntwork-io/terratest/modules/terraform#Options
 	terraformOptions := &terraform.Options{
-		// The path to Terraform.
-		TerraformBinary: which.Which(binary),
+		// The path to Terraform/OpenTofu.
+		TerraformBinary: binary,
 
 		// The path to where our Terraform code is located
 		TerraformDir: tmpDir,

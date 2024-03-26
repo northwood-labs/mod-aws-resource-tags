@@ -68,7 +68,7 @@ func TestAwsResourceTags(t *testing.T) {
 	}
 
 	defer test_structure.RunTestStage(t, "destroy", func() {
-		terraformOptions := test_structure.LoadTerraformOptions(t, tmpDir)
+		terraformOptions = test_structure.LoadTerraformOptions(t, tmpDir)
 		terraform.Destroy(t, terraformOptions)
 	})
 
@@ -80,10 +80,10 @@ func TestAwsResourceTags(t *testing.T) {
 	test_structure.RunTestStage(t, "outputs", func() {
 		terraformOptions := test_structure.LoadTerraformOptions(t, tmpDir)
 		instanceTags := terraform.OutputMap(t, terraformOptions, "common_tags")
-		randomId := terraform.Output(t, terraformOptions, "random_id")
+		randomID := terraform.Output(t, terraformOptions, "random_id")
 
 		expectedTags := map[string]string{
-			"app":        fmt.Sprintf("sample-app-%s", randomId),
+			"app":        fmt.Sprintf("sample-app-%s", randomID),
 			"env":        "sandbox",
 			"managed_by": "opentofu",
 		}

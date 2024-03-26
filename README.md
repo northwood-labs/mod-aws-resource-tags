@@ -21,6 +21,16 @@ Simplifies the process of applying the correct AWS tags to Northwood Labs resour
 
 * Designed to be highly _composable_, and has no hard-dependencies on other modules.
 
+* Integration tests run automatically on every commit against supported versions of Terraform/OpenTofu.
+
+* Outputs can be easily used with other modules or resources which support tagging.
+
+* Adds tag data about the ARN of the user who performed the deployment, as well as a timestamp of the deployment.
+
+* Only looks-up data, but does not persist any data itself, making it completely stateless.
+
+* Purpose-built, meaning that it is designed to solve a single orthogonal problem. Aims to fit 90% of use-cases.
+
 ## Examples
 
 More examples can be found in the `./examples` directory.

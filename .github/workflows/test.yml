@@ -29,10 +29,9 @@ jobs:
       fail-fast: false
       matrix:
         terraform_version:
-          - "1.5"
           - "1.6"
           - "1.7"
-          - "1.8-beta1"
+          - "1.8-rc1"
 
     steps:
       - name: Harden Runner

@@ -9,9 +9,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), adheres t
 ### :books: Documentation
 
 * [`63df939`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/63df93904c750bae7611fd336b42578123a431c5): Added `CONTRIBUTORS.md` document. ([@skyzyx](https://github.com/skyzyx))
-* [`1970cb2`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/1970cb2a5e703d33cad2fdfc0d14512378f360c4): Generate documentation in `README.md.md` ([@github-actions](https://github.com/github-actions))
+* [`1970cb2`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/1970cb2a5e703d33cad2fdfc0d14512378f360c4): Generate documentation in `README.md` ([@github-actions](https://github.com/github-actions))
 * [`bb242a1`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/bb242a185180f1c89953066dfde639334b300353): Updated the 'sales pitch' in the `README.md`. ([@skyzyx](https://github.com/skyzyx))
-* [`6cceae8`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/6cceae836a24668945bd38ad7f58c7851d8ae0ad): Generate documentation in `README.md.md` ([@github-actions](https://github.com/github-actions))
+* [`6cceae8`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/6cceae836a24668945bd38ad7f58c7851d8ae0ad): Generate documentation in `README.md` ([@github-actions](https://github.com/github-actions))
+* [`0ba1868`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/0ba18683a27fbbfcc632514bd348088a3e6f5cdd): Generate the initial CHANGELOG. ([@skyzyx](https://github.com/skyzyx))
 
 ### :closed_lock_with_key: Security
 

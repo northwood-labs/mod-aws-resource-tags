@@ -50,8 +50,8 @@ module "aws_resource_tags" {
 
 | Name | Provider | Version |
 |------|----------|---------|
-| `terraform` | | `~> 1.0` |
-| `aws` | [hashicorp/aws](https://registry.terraform.io/providers/hashicorp/aws/latest/docs) | `~> 5.0` |
+| `terraform` | | `~> 1.6` |
+| `aws` | [hashicorp/aws](https://registry.terraform.io/providers/hashicorp/aws/latest/docs) | `~> 5.42` |
 
 ## Inputs
 

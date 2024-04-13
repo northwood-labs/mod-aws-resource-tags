@@ -26,6 +26,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), adheres t
 * [`d02bb14`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/d02bb143774a10c298ed60e81d782bc4b008ed05): Bump `github/codeql-action` from 3.24.8 to 3.24.9 ([#3](https://github.com/northwood-labs/mod-aws-resource-tags/issues/3)) ([@dependabot](https://github.com/dependabot))
 * [`2a27e9a`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/2a27e9ad19c252fda6edb54fee24d4814941120b): **deps**: Bump `trufflesecurity/trufflehog` from 3.71.0 to 3.71.1 ([#5](https://github.com/northwood-labs/mod-aws-resource-tags/issues/5)) ([@dependabot](https://github.com/dependabot))
 * [`e20b7fe`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/e20b7fe2bb3799ba40ef26f97b9537cf0d520181): **deps**: Bump `actions/dependency-review-action` from 4.2.4 to 4.2.5 ([#4](https://github.com/northwood-labs/mod-aws-resource-tags/issues/4)) ([@dependabot](https://github.com/dependabot))
+* [`7a02817`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/7a028176f75d11df0d8d6bf68c0053e4ddd76966): **deps**: Bump `trufflesecurity/trufflehog` from 3.71.1 to 3.73.0 ([#10](https://github.com/northwood-labs/mod-aws-resource-tags/issues/10)) ([@dependabot](https://github.com/dependabot))
 
 ### :soap: Linting
 
@@ -60,4 +61,4 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), adheres t
 * [`b28843b`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/b28843b74e7559ae4e2635e364cbba9d1b08a386): Add Markdownlint as a CI workflow. ([@skyzyx](https://github.com/skyzyx))
 * [`3676d9e`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/3676d9e072510d70133f8192ca3ae3c32578be1a): Enable automated CHANGELOG generation. ([@skyzyx](https://github.com/skyzyx))
 
-<p>Generated on 2024-03-27.</p>
+<p>Generated on 2024-04-13.</p>

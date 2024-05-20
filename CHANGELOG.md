@@ -29,6 +29,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), adheres t
 * [`7a02817`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/7a028176f75d11df0d8d6bf68c0053e4ddd76966): **deps**: Bump `trufflesecurity/trufflehog` from 3.71.1 to 3.73.0 ([#10](https://github.com/northwood-labs/mod-aws-resource-tags/issues/10)) ([@dependabot](https://github.com/dependabot))
 * [`7a1a201`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/7a1a2017d80500ef452d1ab2d4f12ef64325a8b4): **deps**: Bump `actions/checkout` from 4.1.2 to 4.1.6 ([#28](https://github.com/northwood-labs/mod-aws-resource-tags/issues/28)) ([@dependabot](https://github.com/dependabot))
 * [`d1ac3cc`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/d1ac3cc4e0652655c47ab08c0b3b2a1d1e8db04c): **deps**: Bump `github/codeql-action` from 3.24.9 to 3.25.5 ([#27](https://github.com/northwood-labs/mod-aws-resource-tags/issues/27)) ([@dependabot](https://github.com/dependabot))
+* [`c9e69f5`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/c9e69f588f588f7b07bcc370f7c23570506bbf36): **deps**: Bump `aquasecurity/trivy-action` from 0.18.0 to 0.20.0 ([#25](https://github.com/northwood-labs/mod-aws-resource-tags/issues/25)) ([@dependabot](https://github.com/dependabot))
+* [`27ff972`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/27ff9723037a7f7b40bba2df1c5913ebd25d5008): **deps**: Bump `google/osv-scanner` from 1.7.1 to 1.7.3 ([#24](https://github.com/northwood-labs/mod-aws-resource-tags/issues/24)) ([@dependabot](https://github.com/dependabot))
 
 ### :soap: Linting
 

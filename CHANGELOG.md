@@ -32,6 +32,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), adheres t
 * [`c9e69f5`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/c9e69f588f588f7b07bcc370f7c23570506bbf36): **deps**: Bump `aquasecurity/trivy-action` from 0.18.0 to 0.20.0 ([#25](https://github.com/northwood-labs/mod-aws-resource-tags/issues/25)) ([@dependabot](https://github.com/dependabot))
 * [`27ff972`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/27ff9723037a7f7b40bba2df1c5913ebd25d5008): **deps**: Bump `google/osv-scanner` from 1.7.1 to 1.7.3 ([#24](https://github.com/northwood-labs/mod-aws-resource-tags/issues/24)) ([@dependabot](https://github.com/dependabot))
 * [`b207ded`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/b207ded89814e121f92e72df85cefb785dde09be): **deps**: Bump `the` go_modules group with 2 updates ([#22](https://github.com/northwood-labs/mod-aws-resource-tags/issues/22)) ([@dependabot](https://github.com/dependabot))
+* [`bbb7710`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/bbb7710f2fd24d18e6343859298e5faf8de276c2): **deps**: Bump `github.com/gruntwork-io/terratest` ([#19](https://github.com/northwood-labs/mod-aws-resource-tags/issues/19)) ([@dependabot](https://github.com/dependabot))
 
 ### :soap: Linting
 

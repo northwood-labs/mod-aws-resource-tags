@@ -68,4 +68,4 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), adheres t
 * [`b28843b`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/b28843b74e7559ae4e2635e364cbba9d1b08a386): Add Markdownlint as a CI workflow. ([@skyzyx](https://github.com/skyzyx))
 * [`3676d9e`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/3676d9e072510d70133f8192ca3ae3c32578be1a): Enable automated CHANGELOG generation. ([@skyzyx](https://github.com/skyzyx))
 
-<p>Generated on 2024-05-20.</p>
+<p>Generated on 2024-06-18.</p>

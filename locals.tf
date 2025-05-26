@@ -15,7 +15,7 @@ locals {
   # Custom values.
   std_tags_processed = var.is_foundational ? merge(local.std_tags, {
     foundational     = true
-    cloud-nuke-after = true
+    cloud-nuke-after = "2099-12-31T23:59:59Z" # A date far in the future.
   }) : local.std_tags
 
   # Merge the standard/custom tags with the extra tags.

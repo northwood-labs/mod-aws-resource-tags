@@ -38,6 +38,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), adheres t
 * [`528b951`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/528b95120013eed6109c2df8cf89d7e0bf06ca4d): **deps**: Bump `actions/checkout` from 4.1.6 to 4.1.7 ([#39](https://github.com/northwood-labs/mod-aws-resource-tags/issues/39)) ([@dependabot](https://github.com/dependabot))
 * [`c5b2e73`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/c5b2e73de3fd1bf7d72bbc36333b212a6e294650): **deps**: Bump `github.com/hashicorp/go-getter` in the go_modules group ([#41](https://github.com/northwood-labs/mod-aws-resource-tags/issues/41)) ([@dependabot](https://github.com/dependabot))
 * [`4a07029`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/4a070298d20e53227721bc30270d4804bef3a56f): **deps**: Bump `actions/dependency-review-action` from 4.2.5 to 4.3.4 ([#44](https://github.com/northwood-labs/mod-aws-resource-tags/issues/44)) ([@dependabot](https://github.com/dependabot))
+* [`2b0be44`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/2b0be442e24179e252a1d63904845f63788a859b): **deps**: Bump `orhun/git-cliff-action` from 3.0.2 to 4.0.2 ([#63](https://github.com/northwood-labs/mod-aws-resource-tags/issues/63)) ([@dependabot](https://github.com/dependabot))
+* [`861e74d`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/861e74d368d4b9caa5e4136505abface6938331d): **deps**: Bump `step-security/harden-runner` from 2.7.0 to 2.10.1 ([#65](https://github.com/northwood-labs/mod-aws-resource-tags/issues/65)) ([@dependabot](https://github.com/dependabot))
 
 ### :soap: Linting
 

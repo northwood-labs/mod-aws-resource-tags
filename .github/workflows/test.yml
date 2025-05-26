@@ -70,7 +70,7 @@ jobs:
       - name: Install Go
         uses: actions/setup-go@cdcb36043654635271a94b9a6d1392de5bb323a7 # v5.0.1
         with:
-          go-version: ">= 1.22.1"
+          go-version: ">= 1.23.0"
           cache: true
 
       - name: Install Terraform ${{ matrix.terraform_version }}
@@ -128,7 +128,7 @@ jobs:
       - name: Install Go
         uses: actions/setup-go@cdcb36043654635271a94b9a6d1392de5bb323a7 # v5.0.1
         with:
-          go-version: ">= 1.22.1"
+          go-version: ">= 1.23.0"
           cache: true
 
       - name: Install OpenTofu ${{ matrix.opentofu_version }}

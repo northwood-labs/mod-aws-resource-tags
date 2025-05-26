@@ -48,38 +48,38 @@ module "aws_resource_tags" {
 <!-- BEGIN_TF_DOCS -->
 ## Requirements
 
-| Name        | Provider                                                                           | Version   |
-|-------------|------------------------------------------------------------------------------------|-----------|
-| `terraform` |                                                                                    | `~> 1.6`  |
-| `aws`       | [hashicorp/aws](https://registry.terraform.io/providers/hashicorp/aws/latest/docs) | `~> 5.42` |
+| Name | Provider | Version |
+|------|----------|---------|
+| `terraform` | | `~> 1.6` |
+| `aws` | [hashicorp/aws](https://registry.terraform.io/providers/hashicorp/aws/latest/docs) | `~> 5.42` |
 
 ## Inputs
 
-|        Req         | Variable          | Type                                                              | Description                                                                                                                                                            | Default |
-|:------------------:|-------------------|-------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------|
-| :white_check_mark: | `app`             | [`string`](https://opentofu.org/docs/language/expressions/types/) | The `app` tag. Lowercase and hyphenated.                                                                                                                               |         |
-| :white_check_mark: | `env`             | [`string`](https://opentofu.org/docs/language/expressions/types/) | The `env` tag. Lowercase.                                                                                                                                              |         |
-|                    | `extra`           | [`map`](https://opentofu.org/docs/language/expressions/types/)    | Additional (ad hoc) tags to apply.                                                                                                                                     | `{}`    |
-|                    | `is_foundational` | [`bool`](https://opentofu.org/docs/language/expressions/types/)   | Whether or not this is a foundational piece of infrastructure. A value of `true` will add the `foundational` and `cloud-nuke-after` tags. A value of `false` will not. | `false` |
+| Req | Variable | Type | Description | Default |
+|:---:|----------|------|-------------|---------|
+| :white_check_mark: | `app` | [`string`](https://opentofu.org/docs/language/expressions/types/) | The `app` tag. Lowercase and hyphenated. |  |
+| :white_check_mark: | `env` | [`string`](https://opentofu.org/docs/language/expressions/types/) | The `env` tag. Lowercase. |  |
+|  | `extra` | [`map`](https://opentofu.org/docs/language/expressions/types/) | Additional (ad hoc) tags to apply. | `{}` |
+|  | `is_foundational` | [`bool`](https://opentofu.org/docs/language/expressions/types/) | Whether or not this is a foundational piece of infrastructure. A value of `true` will add the `foundational` and `cloud-nuke-after` tags. A value of `false` will not. | `false` |
 
 ## Outputs
 
-| Name                            | Description                                                                                         |
-|---------------------------------|-----------------------------------------------------------------------------------------------------|
-| `app`                           | The value of the `app` input variable.                                                              |
-| `common_tags`                   | Most services support simple `key = value` pairs.                                                   |
-| `deployed_at`                   | The [RFC 3339](https://datatracker.ietf.org/doc/html/rfc3339) at which the resources were deployed. |
-| `deployed_by`                   | The ARN of the assumed role which performed the deployment.                                         |
-| `env`                           | The value of the `env` input variable.                                                              |
-| `launch_template_resource_tags` | Tags formatted for use with _Launch Templates_.                                                     |
-| `region`                        | The AWS region in which the resources are being created.                                            |
+| Name | Description |
+|------|-------------|
+| `app` | The value of the `app` input variable. |
+| `common_tags` | Most services support simple `key = value` pairs. |
+| `deployed_at` | The [RFC 3339](https://datatracker.ietf.org/doc/html/rfc3339) at which the resources were deployed. |
+| `deployed_by` | The ARN of the assumed role which performed the deployment. |
+| `env` | The value of the `env` input variable. |
+| `launch_template_resource_tags` | Tags formatted for use with _Launch Templates_. |
+| `region` | The AWS region in which the resources are being created. |
 
 ## Resources
 
-| Kind        | Source                                                                                                                       | Name      | Provider                                                                           |
-|-------------|------------------------------------------------------------------------------------------------------------------------------|-----------|------------------------------------------------------------------------------------|
+| Kind | Source | Name | Provider |
+|------|--------|------|----------|
 | data source | [`data.aws_caller_identity`](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/data-sources/caller_identity) | `current` | [hashicorp/aws](https://registry.terraform.io/providers/hashicorp/aws/latest/docs) |
-| data source | [`data.aws_region`](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/data-sources/region)                   | `current` | [hashicorp/aws](https://registry.terraform.io/providers/hashicorp/aws/latest/docs) |
+| data source | [`data.aws_region`](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/data-sources/region) | `current` | [hashicorp/aws](https://registry.terraform.io/providers/hashicorp/aws/latest/docs) |
 <!-- END_TF_DOCS -->
 
 ## Testing

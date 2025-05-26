@@ -63,6 +63,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), adheres t
 * [`aace66c`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/aace66c2aa5ae459ad4f0f35be05da5dea1c67b3): Updated the base Terraform/OpenTofu version to ~> 1.6. ([@skyzyx](https://github.com/skyzyx))
 * [`abd8118`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/abd81185c4af2227660937830f4fea55c9c1d914): Improved tagging in the module and updated docs. ([@skyzyx](https://github.com/skyzyx))
 * [`7654784`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/7654784e33b66aca59b5447230ed43a12fba9674): Fixed the date for 'cloud-nuke-after'. ([@skyzyx](https://github.com/skyzyx))
+* [`5c64991`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/5c649910b91c23b2fed53a14b762db332bdcbbea): Remove git-cliff from source. ([@skyzyx](https://github.com/skyzyx))
 
 ### <!-- ZXX -->:arrows_counterclockwise: Configuration Syncing
 

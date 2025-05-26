@@ -36,6 +36,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), adheres t
 * [`bbb7710`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/bbb7710f2fd24d18e6343859298e5faf8de276c2): **deps**: Bump `github.com/gruntwork-io/terratest` ([#19](https://github.com/northwood-labs/mod-aws-resource-tags/issues/19)) ([@dependabot](https://github.com/dependabot))
 * [`5621a67`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/5621a679d4075aae03c4d7d9339ae67d734d1db7): **deps**: Bump `actions/upload-artifact` from 4.3.1 to 4.3.3 ([#17](https://github.com/northwood-labs/mod-aws-resource-tags/issues/17)) ([@dependabot](https://github.com/dependabot))
 * [`528b951`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/528b95120013eed6109c2df8cf89d7e0bf06ca4d): **deps**: Bump `actions/checkout` from 4.1.6 to 4.1.7 ([#39](https://github.com/northwood-labs/mod-aws-resource-tags/issues/39)) ([@dependabot](https://github.com/dependabot))
+* [`c5b2e73`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/c5b2e73de3fd1bf7d72bbc36333b212a6e294650): **deps**: Bump `github.com/hashicorp/go-getter` in the go_modules group ([#41](https://github.com/northwood-labs/mod-aws-resource-tags/issues/41)) ([@dependabot](https://github.com/dependabot))
 
 ### :soap: Linting
 

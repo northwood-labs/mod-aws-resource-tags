@@ -13,9 +13,15 @@ variable "env" {
   type        = string
 
   validation {
-    condition     = can(regex("^(prod|nonprod|sandbox)$", var.env))
+    condition     = can(regex("^(msa|prod|nonprod|sandbox)$", var.env))
     error_message = "Value should be the lowercase version of one of the official SDLC identifiers."
   }
+}
+
+variable "is_foundational" {
+  description = "Whether or not this is a foundational piece of infrastructure. A value of `true` will add the `foundational` and `cloud-nuke-after` tags. A value of `false` will not."
+  type        = bool
+  default     = false
 }
 
 variable "extra" {

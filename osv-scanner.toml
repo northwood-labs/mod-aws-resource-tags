@@ -1,3 +1,35 @@
 [[IgnoredVulns]]
   id     = "GO-2022-0646"
   reason = "This code from Terratest and the AWS SDK for Go (v1) is not used."
+
+[[IgnoredVulns]]
+  id     = "GO-2025-3488"
+  reason = "This code from Terratest and the AWS SDK for Go (v1) is not used."
+
+[[IgnoredVulns]]
+  id     = "GO-2024-3105"
+  reason = "This code from Terratest and the AWS SDK for Go (v1) is not used."
+
+[[IgnoredVulns]]
+  id     = "GO-2024-3106"
+  reason = "This code from Terratest and the AWS SDK for Go (v1) is not used."
+
+[[IgnoredVulns]]
+  id     = "GO-2024-3107"
+  reason = "This code from Terratest and the AWS SDK for Go (v1) is not used."
+
+[[IgnoredVulns]]
+  id     = "GO-2025-3373"
+  reason = "This code from Terratest and the AWS SDK for Go (v1) is not used."
+
+[[IgnoredVulns]]
+  id     = "GO-2025-3420"
+  reason = "This code from Terratest and the AWS SDK for Go (v1) is not used."
+
+[[IgnoredVulns]]
+  id     = "GO-2025-3447"
+  reason = "This code from Terratest and the AWS SDK for Go (v1) is not used."
+
+[[IgnoredVulns]]
+  id     = "GO-2025-3563"
+  reason = "This code from Terratest and the AWS SDK for Go (v1) is not used."

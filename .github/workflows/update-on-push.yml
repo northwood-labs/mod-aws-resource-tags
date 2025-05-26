@@ -59,7 +59,7 @@ jobs:
 
           set +e
 
-          git add .
+          git add CONTRIBUTORS CHANGELOG.md
           git status | grep modified
           if [ $? -eq 0 ]; then
             git commit -a -m "automation: Updated AUTHORS and CHANGELOG on $(date)."

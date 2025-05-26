@@ -52,6 +52,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), adheres t
 
 * [`aa2a0db`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/aa2a0db5665d9044e950789e6459f09dc966cd34): Sync over changes to GitHub Actions workflows. ([@skyzyx](https://github.com/skyzyx))
 * [`2099931`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/2099931648f793cd6d9729c65787bd13f08f6fb8): Updated the versions in the test suite. ([@skyzyx](https://github.com/skyzyx))
+* [`6e9fa35`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/6e9fa353c00c2d3e2c93af1a76be01a4680c2571): Updated exceptions for OSV scanner. ([@skyzyx](https://github.com/skyzyx))
 
 ### <!-- 0 -->:rocket: Features
 

@@ -14,6 +14,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), adheres t
 * [`6cceae8`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/6cceae836a24668945bd38ad7f58c7851d8ae0ad): Generate documentation in `README.md` ([@github-actions](https://github.com/github-actions))
 * [`0ba1868`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/0ba18683a27fbbfcc632514bd348088a3e6f5cdd): Generate the initial CHANGELOG. ([@skyzyx](https://github.com/skyzyx))
 * [`dc903aa`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/dc903aa3cce17847009f21ed736982282714d6bd): Generate the initial CHANGELOG. ([@skyzyx](https://github.com/skyzyx))
+* [`54f52a0`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/54f52a01242236c6f17bfb7188c77d1fcaf2ee58): Generate documentation in `README.md` ([@github-actions](https://github.com/github-actions))
 
 ### :closed_lock_with_key: Security
 
@@ -52,6 +53,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), adheres t
 
 * [`8b8c9a1`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/8b8c9a127afcc6ff8ac8707ce7f75ea039affc70): Move `go.mod` to root to work better with the Go linter. ([@skyzyx](https://github.com/skyzyx))
 * [`aace66c`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/aace66c2aa5ae459ad4f0f35be05da5dea1c67b3): Updated the base Terraform/OpenTofu version to ~> 1.6. ([@skyzyx](https://github.com/skyzyx))
+* [`abd8118`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/abd81185c4af2227660937830f4fea55c9c1d914): Improved tagging in the module and updated docs. ([@skyzyx](https://github.com/skyzyx))
+* [`7654784`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/7654784e33b66aca59b5447230ed43a12fba9674): Fixed the date for 'cloud-nuke-after'. ([@skyzyx](https://github.com/skyzyx))
 
 ### <!-- ZXX -->:arrows_counterclockwise: Configuration Syncing
 
@@ -68,4 +71,4 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), adheres t
 * [`b28843b`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/b28843b74e7559ae4e2635e364cbba9d1b08a386): Add Markdownlint as a CI workflow. ([@skyzyx](https://github.com/skyzyx))
 * [`3676d9e`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/3676d9e072510d70133f8192ca3ae3c32578be1a): Enable automated CHANGELOG generation. ([@skyzyx](https://github.com/skyzyx))
 
-<p>Generated on 2024-06-18.</p>
+<p>Generated on 2025-05-26.</p>

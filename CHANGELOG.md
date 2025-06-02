@@ -53,6 +53,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), adheres t
 * [`aa2a0db`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/aa2a0db5665d9044e950789e6459f09dc966cd34): Sync over changes to GitHub Actions workflows. ([@skyzyx](https://github.com/skyzyx))
 * [`2099931`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/2099931648f793cd6d9729c65787bd13f08f6fb8): Updated the versions in the test suite. ([@skyzyx](https://github.com/skyzyx))
 * [`6e9fa35`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/6e9fa353c00c2d3e2c93af1a76be01a4680c2571): Updated exceptions for OSV scanner. ([@skyzyx](https://github.com/skyzyx))
+* [`fb984c0`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/fb984c0161ee5dcb71f360121b51c2eed2ee1010): Allow TruffleHog to communicate with api.ote-godaddy.com:443. ([@skyzyx](https://github.com/skyzyx))
 
 ### <!-- 0 -->:rocket: Features
 
@@ -81,4 +82,4 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), adheres t
 * [`b28843b`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/b28843b74e7559ae4e2635e364cbba9d1b08a386): Add Markdownlint as a CI workflow. ([@skyzyx](https://github.com/skyzyx))
 * [`3676d9e`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/3676d9e072510d70133f8192ca3ae3c32578be1a): Enable automated CHANGELOG generation. ([@skyzyx](https://github.com/skyzyx))
 
-<p>Generated on 2025-05-26.</p>
+<p>Generated on 2025-06-02.</p>

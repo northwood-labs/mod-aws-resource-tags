@@ -55,6 +55,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), adheres t
 * [`6e9fa35`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/6e9fa353c00c2d3e2c93af1a76be01a4680c2571): Updated exceptions for OSV scanner. ([@skyzyx](https://github.com/skyzyx))
 * [`fb984c0`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/fb984c0161ee5dcb71f360121b51c2eed2ee1010): Allow TruffleHog to communicate with api.ote-godaddy.com:443. ([@skyzyx](https://github.com/skyzyx))
 * [`a615802`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/a6158029c014f930581cefb512725f6c426bf4a0): Allow scorecard to communicate with api.scorecard.dev:443. ([@skyzyx](https://github.com/skyzyx))
+* [`527987c`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/527987cd41b1c31b54cdb52cfc4826916666f88b): Allow TruffleHog to communicate with gitlab.com:443. ([@skyzyx](https://github.com/skyzyx))
 
 ### <!-- 0 -->:rocket: Features
 

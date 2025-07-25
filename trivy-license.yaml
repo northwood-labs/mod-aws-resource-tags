@@ -5,7 +5,6 @@
 
 cache:
   backend: fs
-  clear: false
 db:
   download-java-only: false
   download-only: false

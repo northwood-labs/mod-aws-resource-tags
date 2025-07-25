@@ -120,6 +120,7 @@ jobs:
             proxy.golang.org:443
             registry.opentofu.org:443
             releases.hashicorp.com:443
+            release-assets.githubusercontent.com:443
             storage.googleapis.com:443
             sts.us-east-2.amazonaws.com:443
 

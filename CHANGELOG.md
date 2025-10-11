@@ -56,6 +56,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), adheres t
 * [`e0a46b3`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/e0a46b3d9377e8a98a868d9bd4c14cdb551dae57): **deps**: Bump `actions/setup-node` from 4.0.2 to 4.4.0 ([#89](https://github.com/northwood-labs/mod-aws-resource-tags/issues/89)) ([@dependabot](https://github.com/dependabot))
 * [`386c207`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/386c2072d7781a3bf6a4fa24d8fc11d3bd433769): **deps**: Bump `step-security/harden-runner` from 2.12.0 to 2.13.1 ([#100](https://github.com/northwood-labs/mod-aws-resource-tags/issues/100)) ([@dependabot](https://github.com/dependabot))
 * [`5709685`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/570968536c88c238a838e529924dded55d155462): **deps**: Bump `orhun/git-cliff-action` from 4.4.2 to 4.6.0 ([#101](https://github.com/northwood-labs/mod-aws-resource-tags/issues/101)) ([@dependabot](https://github.com/dependabot))
+* [`a65698b`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/a65698b6e9e3e51c94d525be3b5f6f05ab4e44b2): **deps**: Bump `github.com/gruntwork-io/terratest` ([#102](https://github.com/northwood-labs/mod-aws-resource-tags/issues/102)) ([@dependabot](https://github.com/dependabot))
 
 ### :soap: Linting
 

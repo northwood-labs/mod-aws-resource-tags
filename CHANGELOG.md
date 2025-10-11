@@ -54,6 +54,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), adheres t
 * [`5c08969`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/5c089697d939089cbb8e6cc8b9e0e9779701aa7f): **deps**: Bump `hashicorp/setup-terraform` from 3.1.1 to 3.1.2 ([#87](https://github.com/northwood-labs/mod-aws-resource-tags/issues/87)) ([@dependabot](https://github.com/dependabot))
 * [`155b0a7`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/155b0a7e9887bb09efbaa695ffbe92d75cbae279): **deps**: Bump `ossf/scorecard-action` from 2.3.3 to 2.4.2 ([#88](https://github.com/northwood-labs/mod-aws-resource-tags/issues/88)) ([@dependabot](https://github.com/dependabot))
 * [`e0a46b3`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/e0a46b3d9377e8a98a868d9bd4c14cdb551dae57): **deps**: Bump `actions/setup-node` from 4.0.2 to 4.4.0 ([#89](https://github.com/northwood-labs/mod-aws-resource-tags/issues/89)) ([@dependabot](https://github.com/dependabot))
+* [`386c207`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/386c2072d7781a3bf6a4fa24d8fc11d3bd433769): **deps**: Bump `step-security/harden-runner` from 2.12.0 to 2.13.1 ([#100](https://github.com/northwood-labs/mod-aws-resource-tags/issues/100)) ([@dependabot](https://github.com/dependabot))
 
 ### :soap: Linting
 
@@ -96,4 +97,4 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), adheres t
 * [`b28843b`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/b28843b74e7559ae4e2635e364cbba9d1b08a386): Add Markdownlint as a CI workflow. ([@skyzyx](https://github.com/skyzyx))
 * [`3676d9e`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/3676d9e072510d70133f8192ca3ae3c32578be1a): Enable automated CHANGELOG generation. ([@skyzyx](https://github.com/skyzyx))
 
-<p>Generated on 2025-07-25.</p>
+<p>Generated on 2025-10-11.</p>

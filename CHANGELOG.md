@@ -58,6 +58,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), adheres t
 * [`5709685`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/570968536c88c238a838e529924dded55d155462): **deps**: Bump `orhun/git-cliff-action` from 4.4.2 to 4.6.0 ([#101](https://github.com/northwood-labs/mod-aws-resource-tags/issues/101)) ([@dependabot](https://github.com/dependabot))
 * [`a65698b`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/a65698b6e9e3e51c94d525be3b5f6f05ab4e44b2): **deps**: Bump `github.com/gruntwork-io/terratest` ([#102](https://github.com/northwood-labs/mod-aws-resource-tags/issues/102)) ([@dependabot](https://github.com/dependabot))
 * [`bfdf9d3`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/bfdf9d375a138f042ff7125266907ef32580f980): **deps**: Bump `ossf/scorecard-action` from 2.4.2 to 2.4.3 ([#103](https://github.com/northwood-labs/mod-aws-resource-tags/issues/103)) ([@dependabot](https://github.com/dependabot))
+* [`e359617`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/e359617c40e9287e2b261f7d3db59296e5ccfbaf): **deps**: Bump `github.com/gruntwork-io/terratest` ([#106](https://github.com/northwood-labs/mod-aws-resource-tags/issues/106)) ([@dependabot](https://github.com/dependabot))
+* [`142ee35`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/142ee3560ce915d5b2f4894f5c7e6c42ee539db4): **deps**: Bump `actions/upload-artifact` from 4.3.3 to 5.0.0 ([#107](https://github.com/northwood-labs/mod-aws-resource-tags/issues/107)) ([@dependabot](https://github.com/dependabot))
 
 ### :soap: Linting
 

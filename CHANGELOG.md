@@ -60,6 +60,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), adheres t
 * [`bfdf9d3`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/bfdf9d375a138f042ff7125266907ef32580f980): **deps**: Bump `ossf/scorecard-action` from 2.4.2 to 2.4.3 ([#103](https://github.com/northwood-labs/mod-aws-resource-tags/issues/103)) ([@dependabot](https://github.com/dependabot))
 * [`e359617`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/e359617c40e9287e2b261f7d3db59296e5ccfbaf): **deps**: Bump `github.com/gruntwork-io/terratest` ([#106](https://github.com/northwood-labs/mod-aws-resource-tags/issues/106)) ([@dependabot](https://github.com/dependabot))
 * [`142ee35`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/142ee3560ce915d5b2f4894f5c7e6c42ee539db4): **deps**: Bump `actions/upload-artifact` from 4.3.3 to 5.0.0 ([#107](https://github.com/northwood-labs/mod-aws-resource-tags/issues/107)) ([@dependabot](https://github.com/dependabot))
+* [`eddaf37`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/eddaf376308dbdf85b3a7ae4b9cfd21e6ab4daca): **deps**: Bump `trufflesecurity/trufflehog` from 3.90.2 to 3.90.12 ([#108](https://github.com/northwood-labs/mod-aws-resource-tags/issues/108)) ([@dependabot](https://github.com/dependabot))
 
 ### :soap: Linting
 

@@ -63,6 +63,9 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), adheres t
 * [`142ee35`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/142ee3560ce915d5b2f4894f5c7e6c42ee539db4): **deps**: Bump `actions/upload-artifact` from 4.3.3 to 5.0.0 ([#107](https://github.com/northwood-labs/mod-aws-resource-tags/issues/107)) ([@dependabot](https://github.com/dependabot))
 * [`eddaf37`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/eddaf376308dbdf85b3a7ae4b9cfd21e6ab4daca): **deps**: Bump `trufflesecurity/trufflehog` from 3.90.2 to 3.90.12 ([#108](https://github.com/northwood-labs/mod-aws-resource-tags/issues/108)) ([@dependabot](https://github.com/dependabot))
 * [`a409dde`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/a409dde9bea1e87ae890da3ceafa08436b006a46): **deps**: Bump `github.com/gruntwork-io/terratest` ([#113](https://github.com/northwood-labs/mod-aws-resource-tags/issues/113)) ([@dependabot](https://github.com/dependabot))
+* [`281c5af`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/281c5af1c33ef0a3f3082cff1baefb6943b084e4): **deps**: Bump `actions/dependency-review-action` from 4.7.1 to 4.8.1 ([#111](https://github.com/northwood-labs/mod-aws-resource-tags/issues/111)) ([@dependabot](https://github.com/dependabot))
+* [`2baef8f`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/2baef8f95996a7cc49ad7c857b16089ad9b9209f): **deps**: Bump `github/codeql-action` from 3.29.4 to 4.31.2 ([#110](https://github.com/northwood-labs/mod-aws-resource-tags/issues/110)) ([@dependabot](https://github.com/dependabot))
+* [`f139066`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/f139066db6fb9f19a773e5b2414777608f0dc69a): **deps**: Bump `actions/setup-go` from 5.5.0 to 6.0.0 ([#109](https://github.com/northwood-labs/mod-aws-resource-tags/issues/109)) ([@dependabot](https://github.com/dependabot))
 
 ### :soap: Linting
 

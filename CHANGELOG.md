@@ -66,6 +66,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), adheres t
 * [`281c5af`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/281c5af1c33ef0a3f3082cff1baefb6943b084e4): **deps**: Bump `actions/dependency-review-action` from 4.7.1 to 4.8.1 ([#111](https://github.com/northwood-labs/mod-aws-resource-tags/issues/111)) ([@dependabot](https://github.com/dependabot))
 * [`2baef8f`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/2baef8f95996a7cc49ad7c857b16089ad9b9209f): **deps**: Bump `github/codeql-action` from 3.29.4 to 4.31.2 ([#110](https://github.com/northwood-labs/mod-aws-resource-tags/issues/110)) ([@dependabot](https://github.com/dependabot))
 * [`f139066`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/f139066db6fb9f19a773e5b2414777608f0dc69a): **deps**: Bump `actions/setup-go` from 5.5.0 to 6.0.0 ([#109](https://github.com/northwood-labs/mod-aws-resource-tags/issues/109)) ([@dependabot](https://github.com/dependabot))
+* [`ff2951c`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/ff2951c929caf65f52f881271d0bdc75bd6c70ac): **deps**: Bump `github.com/stretchr/testify` from 1.10.0 to 1.11.1 ([#98](https://github.com/northwood-labs/mod-aws-resource-tags/issues/98)) ([@dependabot](https://github.com/dependabot))
 
 ### :soap: Linting
 

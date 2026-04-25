@@ -15,6 +15,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), adheres t
 * [`0ba1868`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/0ba18683a27fbbfcc632514bd348088a3e6f5cdd): Generate the initial CHANGELOG. ([@skyzyx](https://github.com/skyzyx))
 * [`dc903aa`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/dc903aa3cce17847009f21ed736982282714d6bd): Generate the initial CHANGELOG. ([@skyzyx](https://github.com/skyzyx))
 * [`54f52a0`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/54f52a01242236c6f17bfb7188c77d1fcaf2ee58): Generate documentation in `README.md` ([@github-actions](https://github.com/github-actions))
+* [`07b8cd4`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/07b8cd44adc8a33201deeac13b15fc146dd9661d): Generate documentation in `README.md` ([@github-actions](https://github.com/github-actions))
 
 ### :closed_lock_with_key: Security
 
@@ -61,6 +62,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), adheres t
 * [`e359617`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/e359617c40e9287e2b261f7d3db59296e5ccfbaf): **deps**: Bump `github.com/gruntwork-io/terratest` ([#106](https://github.com/northwood-labs/mod-aws-resource-tags/issues/106)) ([@dependabot](https://github.com/dependabot))
 * [`142ee35`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/142ee3560ce915d5b2f4894f5c7e6c42ee539db4): **deps**: Bump `actions/upload-artifact` from 4.3.3 to 5.0.0 ([#107](https://github.com/northwood-labs/mod-aws-resource-tags/issues/107)) ([@dependabot](https://github.com/dependabot))
 * [`eddaf37`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/eddaf376308dbdf85b3a7ae4b9cfd21e6ab4daca): **deps**: Bump `trufflesecurity/trufflehog` from 3.90.2 to 3.90.12 ([#108](https://github.com/northwood-labs/mod-aws-resource-tags/issues/108)) ([@dependabot](https://github.com/dependabot))
+* [`a409dde`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/a409dde9bea1e87ae890da3ceafa08436b006a46): **deps**: Bump `github.com/gruntwork-io/terratest` ([#113](https://github.com/northwood-labs/mod-aws-resource-tags/issues/113)) ([@dependabot](https://github.com/dependabot))
 
 ### :soap: Linting
 
@@ -103,4 +105,4 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), adheres t
 * [`b28843b`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/b28843b74e7559ae4e2635e364cbba9d1b08a386): Add Markdownlint as a CI workflow. ([@skyzyx](https://github.com/skyzyx))
 * [`3676d9e`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/3676d9e072510d70133f8192ca3ae3c32578be1a): Enable automated CHANGELOG generation. ([@skyzyx](https://github.com/skyzyx))
 
-<p>Generated on 2025-11-17.</p>
+<p>Generated on 2026-04-25.</p>

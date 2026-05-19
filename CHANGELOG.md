@@ -68,6 +68,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), adheres t
 * [`f139066`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/f139066db6fb9f19a773e5b2414777608f0dc69a): **deps**: Bump `actions/setup-go` from 5.5.0 to 6.0.0 ([#109](https://github.com/northwood-labs/mod-aws-resource-tags/issues/109)) ([@dependabot](https://github.com/dependabot))
 * [`ff2951c`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/ff2951c929caf65f52f881271d0bdc75bd6c70ac): **deps**: Bump `github.com/stretchr/testify` from 1.10.0 to 1.11.1 ([#98](https://github.com/northwood-labs/mod-aws-resource-tags/issues/98)) ([@dependabot](https://github.com/dependabot))
 * [`31455d5`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/31455d57ec1bf7f14d7f18d47b07e67269d4e38e): **deps**: Bump `github.com/gruntwork-io/terratest` from 0.54.0 to 1.0.0 ([#121](https://github.com/northwood-labs/mod-aws-resource-tags/issues/121)) ([@dependabot](https://github.com/dependabot))
+* [`76aeee3`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/76aeee34bf46df382185ee50160ac0e6690b6c0e): **deps**: Bump `github.com/hairyhenderson/go-which` from 0.2.2 to 0.2.3 ([#120](https://github.com/northwood-labs/mod-aws-resource-tags/issues/120)) ([@dependabot](https://github.com/dependabot))
 
 ### :soap: Linting
 

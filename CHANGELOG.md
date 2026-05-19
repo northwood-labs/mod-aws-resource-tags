@@ -75,6 +75,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), adheres t
 * [`80b172a`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/80b172a29227002e5dee6f40d20a67de6870effd): **deps**: Bump `hashicorp/setup-terraform` from 3.1.2 to 4.0.0 ([#115](https://github.com/northwood-labs/mod-aws-resource-tags/issues/115)) ([@dependabot](https://github.com/dependabot))
 * [`aeb3eae`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/aeb3eae0563e1d377645eca95b0cdb084b399800): **deps**: Bump `actions/setup-go` from 6.0.0 to 6.4.0 ([#114](https://github.com/northwood-labs/mod-aws-resource-tags/issues/114)) ([@dependabot](https://github.com/dependabot))
 * [`4927ee6`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/4927ee66d17257bacf5e43e13c2b450f7fddfd24): **deps**: Bump `terraform-docs/gh-actions` from 1.1.0 to 1.4.1 ([#126](https://github.com/northwood-labs/mod-aws-resource-tags/issues/126)) ([@dependabot](https://github.com/dependabot))
+* [`0f1e533`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/0f1e5335b5422867e159fb9c433d4a8b1236eefe): **deps**: Bump `actions/dependency-review-action` from 4.8.1 to 5.0.0 ([#125](https://github.com/northwood-labs/mod-aws-resource-tags/issues/125)) ([@dependabot](https://github.com/dependabot))
 
 ### :soap: Linting
 

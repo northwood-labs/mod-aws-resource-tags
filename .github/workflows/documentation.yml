@@ -41,7 +41,7 @@ jobs:
           ref: main
 
       - name: Render Terraform docs and push changes back to PR
-        uses: terraform-docs/gh-actions@7a62208a0090636af2df1b739da46d27fd90bdc6 # v1.1.0
+        uses: terraform-docs/gh-actions@6de6da0cefcc6b4b7a5cbea4d79d97060733093c # v1.4.1
         with:
           git-commit-message: "docs: Generate documentation in README.md"
           git-push-sign-off: "true"

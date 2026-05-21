@@ -83,6 +83,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), adheres t
 * [`b629540`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/b629540823ba5ae546428a378d173c0453ca6c8d): **deps**: Bump `opentofu/setup-opentofu` from 2.0.0 to 2.0.1 ([#130](https://github.com/northwood-labs/mod-aws-resource-tags/issues/130)) ([@dependabot](https://github.com/dependabot))
 * [`9527f14`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/9527f149af3e0dbab75bfd5266d99e52d5e8009d): **deps**: Bump `hashicorp/setup-terraform` from 4.0.0 to 4.0.1 ([#129](https://github.com/northwood-labs/mod-aws-resource-tags/issues/129)) ([@dependabot](https://github.com/dependabot))
 * [`4ea8737`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/4ea8737e86ccd46fe33425ccf355c5d173e7c76d): **deps**: Bump `actions/checkout` from 4.2.2 to 6.0.2 ([#128](https://github.com/northwood-labs/mod-aws-resource-tags/issues/128)) ([@dependabot](https://github.com/dependabot))
+* [`a10186a`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/a10186a23a8560c0882037cd693bac03e19723f8): **deps**: Bump `orhun/git-cliff-action` from 4.6.0 to 4.8.0 ([#127](https://github.com/northwood-labs/mod-aws-resource-tags/issues/127)) ([@dependabot](https://github.com/dependabot))
 
 ### :soap: Linting
 

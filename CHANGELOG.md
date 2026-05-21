@@ -81,6 +81,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), adheres t
 * [`c8e633a`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/c8e633a22f3c1277c1dfc378e9ea526776a511fc): **deps**: Bump ``google/osv-scanner/.github/workflows/osv-scanner-reusable.yml`` ([#123](https://github.com/northwood-labs/mod-aws-resource-tags/issues/123)) ([@dependabot](https://github.com/dependabot))
 * [`e467477`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/e467477a61c177670260754118f94b1cf15ec23e): **deps**: Bump `trufflesecurity/trufflehog` from 3.90.12 to 3.95.3 ([#131](https://github.com/northwood-labs/mod-aws-resource-tags/issues/131)) ([@dependabot](https://github.com/dependabot))
 * [`b629540`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/b629540823ba5ae546428a378d173c0453ca6c8d): **deps**: Bump `opentofu/setup-opentofu` from 2.0.0 to 2.0.1 ([#130](https://github.com/northwood-labs/mod-aws-resource-tags/issues/130)) ([@dependabot](https://github.com/dependabot))
+* [`9527f14`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/9527f149af3e0dbab75bfd5266d99e52d5e8009d): **deps**: Bump `hashicorp/setup-terraform` from 4.0.0 to 4.0.1 ([#129](https://github.com/northwood-labs/mod-aws-resource-tags/issues/129)) ([@dependabot](https://github.com/dependabot))
 
 ### :soap: Linting
 

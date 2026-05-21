@@ -79,6 +79,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), adheres t
 * [`e763efe`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/e763efe346874b97ea5f256a5d8563cf9118cce1): **deps**: Bump `aquasecurity/trivy-action` from 0.32.0 to 0.36.0 ([#122](https://github.com/northwood-labs/mod-aws-resource-tags/issues/122)) ([@dependabot](https://github.com/dependabot))
 * [`6ae54b3`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/6ae54b3f71af30f028854197db07a0e04252041a): **deps**: Bump `step-security/harden-runner` from 2.13.1 to 2.19.3 ([#124](https://github.com/northwood-labs/mod-aws-resource-tags/issues/124)) ([@dependabot](https://github.com/dependabot))
 * [`c8e633a`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/c8e633a22f3c1277c1dfc378e9ea526776a511fc): **deps**: Bump ``google/osv-scanner/.github/workflows/osv-scanner-reusable.yml`` ([#123](https://github.com/northwood-labs/mod-aws-resource-tags/issues/123)) ([@dependabot](https://github.com/dependabot))
+* [`e467477`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/e467477a61c177670260754118f94b1cf15ec23e): **deps**: Bump `trufflesecurity/trufflehog` from 3.90.12 to 3.95.3 ([#131](https://github.com/northwood-labs/mod-aws-resource-tags/issues/131)) ([@dependabot](https://github.com/dependabot))
 
 ### :soap: Linting
 
@@ -121,4 +122,4 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), adheres t
 * [`b28843b`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/b28843b74e7559ae4e2635e364cbba9d1b08a386): Add Markdownlint as a CI workflow. ([@skyzyx](https://github.com/skyzyx))
 * [`3676d9e`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/3676d9e072510d70133f8192ca3ae3c32578be1a): Enable automated CHANGELOG generation. ([@skyzyx](https://github.com/skyzyx))
 
-<p>Generated on 2026-05-19.</p>
+<p>Generated on 2026-05-21.</p>

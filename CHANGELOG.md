@@ -84,6 +84,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), adheres t
 * [`9527f14`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/9527f149af3e0dbab75bfd5266d99e52d5e8009d): **deps**: Bump `hashicorp/setup-terraform` from 4.0.0 to 4.0.1 ([#129](https://github.com/northwood-labs/mod-aws-resource-tags/issues/129)) ([@dependabot](https://github.com/dependabot))
 * [`4ea8737`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/4ea8737e86ccd46fe33425ccf355c5d173e7c76d): **deps**: Bump `actions/checkout` from 4.2.2 to 6.0.2 ([#128](https://github.com/northwood-labs/mod-aws-resource-tags/issues/128)) ([@dependabot](https://github.com/dependabot))
 * [`a10186a`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/a10186a23a8560c0882037cd693bac03e19723f8): **deps**: Bump `orhun/git-cliff-action` from 4.6.0 to 4.8.0 ([#127](https://github.com/northwood-labs/mod-aws-resource-tags/issues/127)) ([@dependabot](https://github.com/dependabot))
+* [`ea1b53c`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/ea1b53c6dc0176939e228e2750723759aaf312c0): **deps**: Bump `actions/setup-node` from 4.4.0 to 6.4.0 ([#135](https://github.com/northwood-labs/mod-aws-resource-tags/issues/135)) ([@dependabot](https://github.com/dependabot))
+* [`5117cb8`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/5117cb824949475e604b3f61c0ca5b4e3b5c527e): **deps**: Bump `github/codeql-action` from 4.31.2 to 4.35.5 ([#134](https://github.com/northwood-labs/mod-aws-resource-tags/issues/134)) ([@dependabot](https://github.com/dependabot))
 
 ### :soap: Linting
 
@@ -126,4 +128,4 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), adheres t
 * [`b28843b`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/b28843b74e7559ae4e2635e364cbba9d1b08a386): Add Markdownlint as a CI workflow. ([@skyzyx](https://github.com/skyzyx))
 * [`3676d9e`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/3676d9e072510d70133f8192ca3ae3c32578be1a): Enable automated CHANGELOG generation. ([@skyzyx](https://github.com/skyzyx))
 
-<p>Generated on 2026-05-21.</p>
+<p>Generated on 2026-05-22.</p>

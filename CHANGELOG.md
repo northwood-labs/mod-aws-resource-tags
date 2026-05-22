@@ -86,6 +86,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), adheres t
 * [`a10186a`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/a10186a23a8560c0882037cd693bac03e19723f8): **deps**: Bump `orhun/git-cliff-action` from 4.6.0 to 4.8.0 ([#127](https://github.com/northwood-labs/mod-aws-resource-tags/issues/127)) ([@dependabot](https://github.com/dependabot))
 * [`ea1b53c`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/ea1b53c6dc0176939e228e2750723759aaf312c0): **deps**: Bump `actions/setup-node` from 4.4.0 to 6.4.0 ([#135](https://github.com/northwood-labs/mod-aws-resource-tags/issues/135)) ([@dependabot](https://github.com/dependabot))
 * [`5117cb8`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/5117cb824949475e604b3f61c0ca5b4e3b5c527e): **deps**: Bump `github/codeql-action` from 4.31.2 to 4.35.5 ([#134](https://github.com/northwood-labs/mod-aws-resource-tags/issues/134)) ([@dependabot](https://github.com/dependabot))
+* [`ab8a3cb`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/ab8a3cb0abaab8dfb4a02d9411ef36aa81de195e): **deps**: Bump `golangci/golangci-lint-action` from 9.2.0 to 9.2.1 ([#133](https://github.com/northwood-labs/mod-aws-resource-tags/issues/133)) ([@dependabot](https://github.com/dependabot))
+* [`502d237`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/502d237de5c2e3af0904387f132762340f9f8aad): **deps**: Bump `step-security/harden-runner` from 2.19.3 to 2.19.4 ([#132](https://github.com/northwood-labs/mod-aws-resource-tags/issues/132)) ([@dependabot](https://github.com/dependabot))
 
 ### :soap: Linting
 
